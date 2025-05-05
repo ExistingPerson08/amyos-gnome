@@ -68,7 +68,7 @@ for repo in "${!RPM_PACKAGES[@]}"; do
     # Handle COPR packages
     copr_repo=${repo#copr:}
     dnf5 -y copr enable "$copr_repo"
-    dnf5 -y install "${pkg_array[@]}"
+    dnf5 -y install "${pkg_array[@]}" --skip-unavailable
     dnf5 -y copr disable "$copr_repo"
   else
     # Handle regular packages

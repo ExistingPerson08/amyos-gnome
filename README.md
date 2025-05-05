@@ -16,7 +16,7 @@ A custom Fedora Atomic image designed for gaming, development and daily use.
 
 - Built on Fedora 41
 - Uses [Bazzite](https://bazzite.gg/) as the base image
-- KDE Plasma 6.3 with Valve's themes from SteamOS
+- Gnome desktop
 - Optimized for AMD and Intel GPUs
 
 ## Features
@@ -30,7 +30,6 @@ A custom Fedora Atomic image designed for gaming, development and daily use.
 - Curated list of [Flatpaks](https://github.com/astrovm/amyos/blob/main/repo_files/flatpaks)
 - DNS over TLS, DNSSEC and MAC address randomization enabled
 - Docker, Podman, Distrobox and Toolbx
-- Fixed Plasma integration with Google Drive
 - Ghostty terminal, Starship prompt, Zsh, `fuck` alias and Atuin history search (Ctrl+R)
 - Nix package manager with GPU drivers symlink and custom Home Manager config
 - OpenRGB and CoolerControl
@@ -90,10 +89,10 @@ ujust amy-ssd-crypto
 
 ## Package management
 
-GUI apps can be found as Flatpaks in the Discover app or [FlatHub](https://flathub.org/) and installed with `flatpak install ...`.
+GUI apps can be found as Flatpaks in the Gnome Software app or [FlatHub](https://flathub.org/) and installed with `flatpak install ...`.
 
 CLI apps are available from [Nix](https://search.nixos.org/packages) using `nix profile install nixpkgs#...` or setting up Home Manager with `ujust amy-setup-home` and changing `~/.config/home-manager/home.nix` packages list. GUI apps usually work fine too.
 
 ## Acknowledgments
 
-This project is based on the [Universal Blue image template](https://github.com/ublue-os/image-template) and builds upon the excellent work of the Universal Blue community.
+This project is based on the [Universal Blue image template](https://github.com/ublue-os/image-template) and [original AmyOS](https://github.com/astrovm/amyos) and builds upon the excellent work of the Universal Blue community.

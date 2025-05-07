@@ -12,14 +12,11 @@ declare -A RPM_PACKAGES=(
   ["fedora"]="\
     android-tools \
     aria2 \
-    audacity-freeworld \
     bchunk \
     bleachbit \
-    coolercontrol \
     fuse-btfs \
     fuse-devel \
     fuse3-devel \
-    gnome-disk-utility \
     gparted \
     gwenview \
     isoimagewriter \
@@ -28,12 +25,10 @@ declare -A RPM_PACKAGES=(
     ksystemlog \
     nmap \
     openrgb \
-    printer-driver-brlaser \
     qemu-kvm \
     virt-manager \
     virt-viewer \
     wireshark \
-    yakuake \
     yt-dlp"
 
   ["fedora-multimedia"]="\

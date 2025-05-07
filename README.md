@@ -10,11 +10,11 @@
 
 # Amy OS
 
-A custom Fedora Atomic image designed for gaming, development and daily use.
+A custom opinionated Fedora Atomic image designed for gaming, development and daily use.
 
 ## Base System
 
-- Built on Fedora 41
+- Built on latest Fedora
 - Uses [Bazzite](https://bazzite.gg/) as the base image
 - Gnome desktop
 - Optimized for AMD and Intel GPUs
@@ -44,7 +44,7 @@ A custom Fedora Atomic image designed for gaming, development and daily use.
 From existing Fedora Atomic/Universal Blue installation switch to Amy OS image:
 
 ```bash
-sudo bootc switch --enforce-container-sigpolicy ghcr.io/astrovm/amyos:latest
+sudo bootc switch --enforce-container-sigpolicy ghcr.io/existingperson08/amyos-gnome:latest
 ```
 
 If you want to install the image on a new system download and install Bazzite ISO first:

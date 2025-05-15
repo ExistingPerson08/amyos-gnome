@@ -17,8 +17,6 @@ declare -A RPM_PACKAGES=(
     fuse-btfs \
     fuse-devel \
     fuse3-devel \
-    gparted \
-    gwenview \
     isoimagewriter \
     kcalc \
     kgpg \
@@ -30,17 +28,6 @@ declare -A RPM_PACKAGES=(
     virt-viewer \
     wireshark \
     yt-dlp"
-
-  ["fedora-multimedia"]="\
-    HandBrake-cli \
-    HandBrake-gui \
-    haruna \
-    mpv \
-    vlc-plugin-bittorrent \
-    vlc-plugin-ffmpeg \
-    vlc-plugin-kde \
-    vlc-plugin-pause-click \
-    vlc"
 
   ["docker-ce"]="\
     containerd.io \

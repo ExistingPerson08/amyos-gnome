@@ -30,13 +30,13 @@ A custom opinionated Fedora Atomic image designed for gaming, development and da
 - Curated list of [Flatpaks](https://github.com/astrovm/amyos/blob/main/repo_files/flatpaks)
 - DNS over TLS, DNSSEC and MAC address randomization enabled
 - Docker, Podman, Distrobox and Toolbx
-- Ghostty terminal, Starship prompt, Zsh, `fuck` alias and Atuin history search (Ctrl+R)
+- Ghostty terminal, Starship prompt, Zsh, fish, `fuck` alias and Atuin history search (Ctrl+R)
 - Nix package manager with GPU drivers symlink and custom Home Manager config
 - OpenRGB and CoolerControl
 - Sonic Adventure mods (SADX and SA2) setup script
 - Switch to standalone SteamOS session from login screen
 - Virtual Machine Manager, libvirt and QEMU
-- VLC, mpv, HandBrake and Audacity
+- VLC, mpv, HandBrake, Youtube music and Audacity
 - VSCode, Cursor (with Remote Tunnels fixed), Neovim
 
 ## Install
@@ -49,7 +49,7 @@ sudo bootc switch --enforce-container-sigpolicy ghcr.io/existingperson08/amyos-g
 
 If you want to install the image on a new system download and install Bazzite ISO first:
 
-<https://download.bazzite.gg/bazzite-stable-amd64.iso>
+<https://bazzite.gg/>
 
 ## Custom commands
 

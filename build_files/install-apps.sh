@@ -18,16 +18,14 @@ declare -A RPM_PACKAGES=(
     fuse-devel \
     fuse3-devel \
     isoimagewriter \
-    kcalc \
-    kgpg \
-    ksystemlog \
     nmap \
     openrgb \
     qemu-kvm \
     virt-manager \
     virt-viewer \
     wireshark \
-    yt-dlp"
+    yt-dlp \
+    fish"
 
   ["docker-ce"]="\
     containerd.io \
@@ -35,6 +33,13 @@ declare -A RPM_PACKAGES=(
     docker-ce \
     docker-ce-cli \
     docker-compose-plugin"
+
+  ["terra"]="\
+    coolercontrol \
+    discord \
+    youtube-music \
+    gamescope-session \
+    gamescope-session-steam"
 
   ["brave-browser"]="brave-browser"
   ["cloudflare-warp"]="cloudflare-warp"

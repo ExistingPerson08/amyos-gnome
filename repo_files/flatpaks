@@ -11,8 +11,6 @@ com.spotify.Client
 com.stremio.Stremio
 com.usebottles.bottles
 de.leopoldluley.Clapgrep
-dev.vencord.Vesktop
-io.github.dvlv.boxbuddyrs
 io.github.fastrizwaan.WineZGUI
 io.github.flattool.Warehouse
 io.github.giantpinkrobots.varia
@@ -21,14 +19,8 @@ net.davidotek.pupgui2
 org.blender.Blender
 org.fedoraproject.MediaWriter
 org.gimp.GIMP
-org.kde.kdenlive
-org.kde.krita
-org.kde.okular
 org.libreoffice.LibreOffice
 org.localsend.localsend_app
-org.qbittorrent.qBittorrent
-org.signal.Signal
-org.telegram.desktop
 org.torproject.torbrowser-launcher
 runtime/com.obsproject.Studio.Plugin.Gstreamer
 runtime/com.obsproject.Studio.Plugin.GStreamerVaapi

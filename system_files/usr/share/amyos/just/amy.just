@@ -7,7 +7,7 @@ amy-install-flatpaks:
   set -euo pipefail
 
   echo "Installing Flatpaks..."
-  xargs -a <(curl --retry 3 -sL https://raw.githubusercontent.com/astrovm/amyos/main/repo_files/flatpaks) flatpak --system -y install
+  xargs -a <(curl --retry 3 -sL https://raw.githubusercontent.com/ExistinPerson08/amyos-gnome/main/repo_files/flatpaks) flatpak --system -y install
   echo "Flatpaks installation complete."
 
 # Install only Nix packages

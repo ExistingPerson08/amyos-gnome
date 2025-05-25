@@ -22,8 +22,8 @@ declare -A RPM_PACKAGES=(
     qemu-kvm \
     virt-manager \
     virt-viewer \
-    wireshark \
     yt-dlp \
+    zsh \
     fish"
 
   ["docker-ce"]="\

@@ -17,7 +17,6 @@ declare -A RPM_PACKAGES=(
     fuse-btfs \
     fuse-devel \
     fuse3-devel \
-    isoimagewriter \
     nmap \
     openrgb \
     qemu-kvm \

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>World of Warcraft</name>
+    <filename>/usr/share/backgrounds/wow-pandaria.png</filename>
+    <filename-dark>/usr/share/backgrounds/wow-deepholm.png</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#202646</pcolor>
+    <scolor>#36438E</scolor>
+  </wallpaper>
+</wallpapers>

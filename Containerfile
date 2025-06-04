@@ -12,3 +12,8 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
   /ctx/fix-opt.sh && \
   /ctx/build-initramfs.sh && \
   /ctx/cleanup.sh
+
+extra_files:
+  - usr/share/backgrounds/gaming/
+  - usr/share/gnome-background-properties/
+

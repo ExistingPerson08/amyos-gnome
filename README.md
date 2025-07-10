@@ -12,6 +12,8 @@
 
 A custom opinionated Fedora Atomic image designed for gaming, development and daily use.
 
+**NOTE: A LOT OF THINGS AREN'T WORKING YET AND IT'S NOT EXACTLY THE SAME AS THE ORIGINAL AMY-OS**
+
 ## Base System
 
 - Built on latest Fedora
